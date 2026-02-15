@@ -1,0 +1,89 @@
+Script started on 2026-02-15 18:04:02-05:00
+bash-4.4$  
+bash-4.4$ ls ?[K[K /mnt/sca[Kratch/cs131_jelenang/amazon_reviews_fuull.tsc[Kv\
+>  [K
+ls: cannot access '/mnt/scratch/cs131_jelenang/amazon_reviews_fuull.tsv': No such file or directory
+bash-4.4$ head -n 1 /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv > amazon_reviews_10k_mistery.tsv
+bash-4.4$ 
+bash-4.4$  ls
+amazon_reviews_10k_mistery.tsv	hw03_session.txt
+bash-4.4$ head -n 1 /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv > amazon_reviews_10k_mistery.tsv
+bash-4.4$ 
+bash-4.4$ grep -i -E ""M"[1P"m"i"u"r"[1P"[1P"[1P"u"r"d"e"r"|"m"y"s"t"e"r"y"|"d"e"t"e"c"t"i"v"e"|"c"r"i"m"e"}"[1P"|"t"h"r"i"l"l"e"r"|"s"p"o"i"l"e"t"|"p"l"o"t"[C
+d 
+grep -i -E "murder|mystery|detective|crime|thriller|twist|spoiler|plot" \
+/mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv \
+| tail -n +2 \
+| head -n 10000 >> amazon_reviews_10k_mistery.tsv
+grep -i -E "murder|mystery|detective|crime|thriller|twist|spoiler|plot" \
+
+^X
+^C
+bash-4.4$ grep -i -E "murder|mystery|detective|crime|thriller|twist|spoiler|plot" /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv | tail -n +2 | head -n 10000 >> amazon_reviews_10k_mistery.tsv
+bash-4.4$ wc -l amazon_reviews_10k_mistery.tsv
+10001 amazon_reviews_10k_mistery.tsv
+bash-4.4$ wc -l amazon_reviews_10k_mistery.tsv
+10001 amazon_reviews_10k_mistery.tsv
+bash-4.4$ wc -l amazon_reviews_10k_mistery.tsv > counts.txt
+bash-4.4$ tail -n +2 amazon_reviews_10k_mistery.tsv | wc -l >> counts.txt
+bash-4.4$ echo "Note: First line is the header." >> counts.txt
+bash-4.4$ cat counts.txt
+10001 amazon_reviews_10k_mistery.tsv
+10000
+Note: First line is the header.
+bash-4.4$ cat coutn[K[K[Kunts.txxt
+cat: counts.txxt: No such file or directory
+bash-4.4$ cat counts.txt
+10001 amazon_reviews_10k_mistery.tsv
+10000
+Note: First line is the header.
+bash-4.4$ tail -n +2 amazo[K[Kzon_reviews_10k_mistery.tsv|[K\
+> cut[K[K[K| cut -f8 \
+> | sort \
+> | uniq -c \
+> | sort -nr > hist_star_rating.txt
+bash-4.4$ cat hist_star_rating.txt
+   5520 5
+   1972 4
+    960 3
+    868 1
+    680 2
+bash-4.4$ tail -n +2 amazon_reviews_10k_mistery.tsv \
+> | cut -f2 \
+> | sort \
+> | uniq -c \
+> | sort -nr \
+> | head -n 10 > top_customers.txt
+bash-4.4$ tail -n +2 amazon_reviews_10k_mistery.tsv \
+> | cut -f4,6 \
+> | sort \
+> | uniq -c \
+> | sort -nr \
+> | head -n 10 > top_products.txt
+bash-4.4$ cat top_products.txt
+    197 B00000K19E	The Matrix
+    179 0399143904	Rainbow Six
+    104 0553573403	A Game of Thrones (A Song of Ice and Fire, Book 1)
+     99 630575067X	Star Wars - Episode I, The Phantom Menace [VHS]
+     93 6305750750	Star Wars - Episode I, The Phantom Menace (Widescreen Edition Boxed Set) [VHS]
+     83 0385493800	The Testament
+     79 0380973464	Cryptonomicon
+     77 B00000K2SC	The Matrix - Standard Collector's Edition [VHS]
+     71 B00003W8NM	Fight Club (Two-Disc Collector's Edition)
+     70 B00003CWPR	Eyes Wide Shut (R-Rated Edition)
+bash-4.4$ tail -n +2 amazon_reviews_10k_mistery.tsv \
+> | cut -f7 \
+> | sort \
+> | uniq -c \
+> | sort -nr > hist_categories.txt
+bash-4.4$ cat hg[Kist_categories.tzt
+cat: hist_categories.tzt: No such file or directory
+bash-4.4$ cat hist_categories.txt
+   3702 Books
+   2725 Video
+   2488 Video DVD
+   1085 Music
+bash-4.4$ vi[K[Kexit
+exit
+
+Script done on 2026-02-15 18:14:28-05:00

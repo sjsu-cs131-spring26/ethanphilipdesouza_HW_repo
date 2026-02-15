@@ -1,0 +1,3 @@
+10001 amazon_reviews_10k_mistery.tsv
+10000
+Note: First line is the header.
