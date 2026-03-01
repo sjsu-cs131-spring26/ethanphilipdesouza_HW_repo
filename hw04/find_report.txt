@@ -1,0 +1,11 @@
+Part A - Globbing
+
+command:
+ls note?.txt
+
+output:
+note1.txt
+note2.txt
+
+
+The ? matches exactly one character between note and .txt

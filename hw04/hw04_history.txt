@@ -1,0 +1,641 @@
+    1  passwd
+    2  pdd
+    3  pwd
+    4  ls
+    5  cd ethand_h2.log
+    6  cd ethand h2.log
+    7  ls
+    8  cd ethand_h2.log
+    9  script ethand_h2.log
+   10  pwd
+   11  ls
+   12  cd ethand_h2.log
+   13  cat ethand_h2.log
+   14  pwd
+   15  ls
+   16  cat ethand_h2.log
+   17  cd
+   18  pwd
+   19  ls
+   20  cd /mnt/scratch/CS131_jelenag
+   21  ls
+   22  cd amazon_reviews_60.tsv   
+   23  head -n 5 amazon_reviews_60.tsv
+   24  tail head -n 5 amazon_reviews_60.tsv
+   25  wc -l amazon_reviews_60.tsv
+   26  pwd
+   27  cd
+   28  pwd
+   29  ls
+   30  cd mnt/scratch/CS131_jelenag/students/ethand
+   31  cd ethand_h2.log
+   32  ls
+   33  cd /mnt/scratch/CS131_jelenag
+   34  ls
+   35  cd amazon_reviews_60.tsv
+   36  head -n 5 amazon_reviews_60.tsv
+   37  tail -n 5 amazon_reviews_60.tsv
+   38  wc -l amazon_reviews_60.tsv
+   39  cd /mnt/scratch/CS131_jelenag/students/ethand
+   40  ls
+   41  mkdir -p homework_assignments/hw2
+   42  exit
+   43  script ethand_h2.log
+   44  history
+   45  mv ethand_h2.log homework_assignments/hw2/
+   46  ls homework_assignments/hw2
+   47  more homework_assignments/hw2/ethand_h2.log
+   48  exit
+   49  ls projects
+   50  ls
+   51  cd homework_assignments
+   52  ls
+   53  cd
+   54  pwd
+   55  cd /mnt/scratch/CS131_jelenag
+   56  ls
+   57  cd projects
+   58  pwd
+   59  ls
+   60  cd team03_sec1
+   61  ls
+   62  cd
+   63  https://sjsu.instructure.com/courses/1619386/pages/connecting-to-ibm-server?module_item_id=17542227
+   64  pwd
+   65  cd /mnt/scratch/CS131_jelenag
+   66  ls
+   67  cd projects
+   68  ls
+   69  cd team03_sec03
+   70  cd team03_sec3
+   71  mkdir - p $OUT data/samples
+   72  mkdir -p $OUT 
+   73  mkdir -p $OUT Data
+   74  ls
+   75  scp Crime_Data_from_2020_to_Present.csv ethand@sjsu:/home/ethand/team03_sec3/Data/
+   76  cat ~/.ssh/config
+   77  ls
+   78  pwd
+   79  cd /mnt/scratch/CS131_jelenag
+   80  ls
+   81  cd class
+   82  ls Class
+   83  cd projects
+   84  ls
+   85  cd  team03_sec3
+   86  ls
+   87  cd
+   88  cd  team03_sec3
+   89  cd /mnt/scratch/CS131_jelenag
+   90  ls
+   91  cd amazon_reviews_full.tsv    
+   92  grep -i 'refund' amazon_reviews_full.tsv | wc -l
+   93  ls
+   94  cd projects
+   95  ls
+   96  cd team03_sec3  
+   97  ls
+   98  mv Crime_Data_from_2020_to_Present.csv Data/
+   99  ls
+  100  cd
+  101  ls
+  102  cd mv Crime_Data_from_2020_to_Present.csv Data/
+  103  pwd
+  104  cd /mnt/scratch/CS131_jelenag
+  105  ls
+  106  grep -ic 'broken' amazon_reviews.tsv
+  107  grep -in 'broken' amazon_reviews.tsv
+  108  ls
+  109  cd students
+  110  ls
+  111  cd
+  112  pwd
+  113  cd /mnt/scratch/CS131_jelenag
+  114  ls
+  115  cd projects
+  116  ls
+  117  cd team03_sec3  
+  118  ls
+  119  cd Data
+  120  ls
+  121  cd
+  122  ls
+  123  pwd
+  124  [ethand@sjsu ~]$ pwd
+  125  /mnt/scratch/CS131_jelenag/students/ethand
+  126  cd [ethand@sjsu ~]$ pwd
+  127  /mnt/scratch/CS131_jelenag/students/ethand
+  128  pwd
+  129  ls
+  130  pwd
+  131  cd /mnt/scratch/CS131_jelenag
+  132  ls
+  133  cd projects
+  134  ls
+  135  cd team03_sec3 
+  136  ls
+  137  cd team03_sec2 
+  138  cd
+  139  cd /mnt/scratch/CS131_jelenag/students
+  140  ls
+  141  cd
+  142  pwd
+  143  cd /mnt/scratch/CS131_jelenag
+  144  ls
+  145  grep -i 'late delivery' amazon_reviews_full.tsv | head
+  146  grep -in 'late delivery' amazon_reviews_full.tsv | head
+  147  grep -E '2009-[0-9]{2}-[0-9]{2}$' amazon_reviews_full.tsv |head
+  148  cut -f15 amazon_reviews_full.tsv | tail -n +2 | grep -c '^2009-'
+  149  grep -wic 'cat' amazon_reviews_full.tsv
+  150  cd
+  151  pwd
+  152  cd /mnt/scratch/CS131_jelenag
+  153  ls
+  154  cd projects
+  155  ls
+  156  cd team03_sec3
+  157  pwd
+  158  nano run_project2.sh
+  159  ls
+  160  cd Data
+  161  ls
+  162  cd
+  163  cd nano run_project2.sh
+  164  pwd
+  165  cd /mnt/scratch/CS131_jelenag
+  166  ls
+  167  cd projects
+  168  ls
+  169  cd team03_sec3   
+  170  ls
+  171  nano run_project2.sh
+  172  ls
+  173  ls -ld Data
+  174  ls -l Data
+  175  ls -ld Data
+  176  ls /mnt/scratch/CS131_jelenag/projects/team03_sec3/Data
+  177  ls
+  178  cd run_project2.sh
+  179  rm run_project2.sh
+  180  rm  run_project2.shY
+  181  ls
+  182  cd Data
+  183  ls
+  184  pwd
+  185  cd /mnt/scratch/CS131_jelenag
+  186  ls
+  187  cd
+  188  cd /mnt/scratch/CS131_jelenag
+  189  ls
+  190  cd projects
+  191  ls
+  192  cd  team03_sec3 
+  193  ls -ld .
+  194  chmod 755 .
+  195  ls -ld .
+  196  ls
+  197  cd Data
+  198  ls -ld Data
+  199  cd team03_sec3 
+  200  ls
+  201  ls -ld .
+  202  chmod 775 .
+  203  ls -1d
+  204  ls -ld .
+  205  chmod 777 .
+  206  ls -ld
+  207  ..
+  208  pwd
+  209  cd /mnt/scratch/CS131_jelenag
+  210  ls
+  211  cd amazon_reviews_full.tsv  
+  212  pwd
+  213  lamazon_reviews_full.tsv  
+  214  grep -i 'refund' amazon_reviews_full.tsv | wc -l
+  215  grep -i 'great' amazon_reviews_full.tsv | wc -1
+  216  grep -i 'great' amazon_reviews_full.tsv
+  217  Locate /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv 
+  218   
+  219  How many unique reviewers are there in the dataset?head -1 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv
+  220  head -1 /mnt/scratch/CS131_jelenag/quiz_amazon_reviews.tsv
+  221  grep -ic 'broken' amazon_reviews.tsv
+  222  grep -ic 'great' amazon_reviews.tsv
+  223  pwd
+  224  grep -in 'broken' amazon_reviews.tsv
+  225  grep -in 'great' amazon_reviews.tsv
+  226  cut -f2 quiz_amazon_reviews.tsv | tail -n +2 | sort | uniq | wc -l
+  227  cut -f9 quiz_amazon_reviews.tsv | tail -n +2 | sort | uniq -c | sort -nr | head -1
+  228  grep -inm 1 "great" quiz_amazon_reviews.tsv
+  229  ls -l amazon_reviews_full.tsv
+  230  cp ../../data_profiles.sh ./
+  231  pwd
+  232  cp ../../data_profiles.sh  ./
+  233  vi data_profiles.sh
+  234  cp ../../data_profiles.sh  ./
+  235   cp ../../data_profiles.sh ./
+  236  bash run_project2.sh
+  237  ./run_project2.sh 
+  238  ~/data_profile.txt
+  239  nano run_project2.sh
+  240  cd
+  241  pwd
+  242  cd /mnt/scratch/CS131_jelenag
+  243  ls
+  244  nano run_amazon_reviews_full.tsv
+  245  ~/data_profile.txt
+  246  /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv
+  247  nano run_project2.sh
+  248  bash run_project2.sh
+  249  nanu run_project2.sh
+  250  nano run_project2.sh
+  251  bash run_project2.sgh
+  252  run_project2.sh
+  253  bash run_project2.sh
+  254  nano run_project2.sh
+  255  bash run_project2.sh
+  256  nano run_project2.sh
+  257  ls -lh /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv
+  258  head -n 1 /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv
+  259  wc -l < /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv
+  260  bash run_project2.sh
+  261  nano run_project2.sh
+  262  ls -lh /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv
+  263  head -n 1 /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv
+  264  nano run project_2
+  265  nano run_project2
+  266  nano run_project2.sh
+  267  ls
+  268  cd exams
+  269  ls
+  270  cd
+  271  cat ~/quiz_amazon_reviews.tsv 
+  272   
+  273  ls /mnt/scratch/cs131_jelenang/amazon_reviews_fuull.tsv\
+  274  head -n 1 /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv > amazon_reviews_10k_mistery.tsv
+  275   ls
+  276  head -n 1 /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv > amazon_reviews_10k_mistery.tsv
+  277  grep -i -E "murder|mystery|detective|crime|thriller|spoilet|plot"
+  278  grep -i -E "murder|mystery|detective|crime|thriller|twist|spoiler|plot" /mnt/scratch/CS131_jelenag/amazon_reviews_full.tsv | tail -n +2 | head -n 10000 >> amazon_reviews_10k_mistery.tsv
+  279  wc -l amazon_reviews_10k_mistery.tsv
+  280  wc -l amazon_reviews_10k_mistery.tsv > counts.txt
+  281  tail -n +2 amazon_reviews_10k_mistery.tsv | wc -l >> counts.txt
+  282  echo "Note: First line is the header." >> counts.txt
+  283  cat counts.txt
+  284  cat counts.txxt
+  285  cat counts.txt
+  286  tail -n +2 amazon_reviews_10k_mistery.tsv| cut -f8 | sort | uniq -c | sort -nr > hist_star_rating.txt
+  287  cat hist_star_rating.txt
+  288  tail -n +2 amazon_reviews_10k_mistery.tsv | cut -f2 | sort | uniq -c | sort -nr | head -n 10 > top_customers.txt
+  289  tail -n +2 amazon_reviews_10k_mistery.tsv | cut -f4,6 | sort | uniq -c | sort -nr | head -n 10 > top_products.txt
+  290  cat top_products.txt
+  291  tail -n +2 amazon_reviews_10k_mistery.tsv | cut -f7 | sort | uniq -c | sort -nr > hist_categories.txt
+  292  cat hist_categories.tzt
+  293  cat hist_categories.txt
+  294  exit
+  295  pwd
+  296  mkdir -p /mnt/scratch/CS131_jelenag/students/ethand/hw03
+  297  cd /mnt/scratch/CS131_jelenag/students/ethand/hw03
+  298  script hw03_session.txt
+  299  cd
+  300  cd ethanphilipdesouza_HW_repo
+  301  git clone git@github.com:sjsu-cs131-s26/ethanphilipdesouza_HW_repo.git
+  302  ls ~/.ssh
+  303  ssh-keygen -t ed25519 -C "your_github_email"
+  304  ssh-keygen -t ed25519 -C "your_github_email" -f ~/.ssh/id_ed25519
+  305  ssh-keygen -t ed25519 -C "ethanphilipdesouza@gmail.com" -f ~/.ssh/id_ed25519
+  306  cat ~/.ssh/id_ed25519.pub
+  307  ssh -T git@github.com
+  308  ls -la ~/.ssh
+  309  eval "$(ssh-agent -s)"
+  310  ssh-add ~/.ssh/id_ed25519
+  311  ssh -T git@github.com
+  312  scp -r ethand@172.20.25.9:/mnt/scratch/CS131_jelenag/students/ethand/hw03 .
+  313  ls
+  314  git clone https://github.com/sjsu-cs131-s26/ethanphilipdesouza_HW_repo.git
+  315  ls
+  316  cd hw03
+  317  ls
+  318  git clone https://github.com/sjsu-cs131-s26/ethanphilipdesouza_HW_repo.git
+  319  git clone https://github.com/sjsu-cs131-spring26/ethanphilipdesouza_HW_repo.git
+  320  cd ethanphilipdesouza_HW_repo
+  321  mkdir hw03
+  322  cp /mnt/scratch/CS131_jelenag/students/ethand/hw03/* hw03/
+  323  git add hw03/
+  324  git commit -m "HW03: UNIX data wrangling"
+  325  git push
+  326  git config --global user.name "Ethan Philip De Souza"
+  327  git config --global user.email "ethanphilipdesouza@gmail.com"
+  328  git config --global --list
+  329  git commit -m "HW03: UNIX data wrangling"
+  330  git push -u origin main
+  331  ssh -T git@github.com
+  332  cat ~/.ssh/id_ed25519.pub
+  333  ssh -T git@github.com
+  334  ssh -vT git@github.com
+  335  debug1: identity file /mnt/scratch/CS131_jelenag/students/ethand/.ssh/id_ed25519 type 3
+  336  ssh-keygen -t ed25519 -C "ethanphilipdesouza@gmail.com"
+  337  ssh -T git@github.com
+  338  qpRmlrXmxABqsc4XQFA/MZZo+xn68T2TiU8wAuJktSE
+  339  git remote -v
+  340  git push -u origin main
+  341  git remote -v
+  342  git remote set-url origin git@github.com:sjsu-cs131-spring26/ethanphilipdesouza_HW_repo.git
+  343  ls
+  344  cd hw03
+  345  ls
+  346  git remote -v
+  347  git branch
+  348  git push -u origin main
+  349  git remote -v
+  350  echo $HOME
+  351  IBM Scratch Key
+  352  ssh -T git@github.com
+  353  cd
+  354  ls
+  355  git push -u origin main
+  356  pwd
+  357  cd ethanphilipdesouza_HW_repo
+  358  ls
+  359  cd hw03
+  360  git push -u origin main
+  361  cd
+  362  'ls -a
+  363  git push -u origin main
+  364  cd
+  365  cd ethanphilipdesouza_HW_repo
+  366  find . -maxdepth 2 -type d -name "*HW_repo*"
+  367  cd hw03/ethanphilipdesouza_HW_repo
+  368  ls -a
+  369  git push -u origin main
+  370  cp /mnt/scratch/CS131_jelenag/students/ethand/hw03/hw03_history.txt hw03/
+  371  cp /mnt/scratch/CS131_jelenag/students/ethand/hw03/README.md hw03/
+  372  ls
+  373  cd hw03
+  374  ls
+  375  history > hw03/hw03_history.txt
+  376  cd
+  377  history > hw03/hw03_history.txt
+  378  ls hw03
+  379  vi hw03/README.md
+  380  git add hw03/
+  381  git commit -m "Add README and history"
+  382  git push
+  383  cd ethanphilipdesouza_HW_repo
+  384  ls
+  385  cd hw03
+  386  ls -a
+  387  git add hw03/
+  388  git commit -m "Add README and history"
+  389  git push
+  390  cd
+  391  cd ethanphilipdesouza_HW_repo
+  392  cd hw03/ethanphilipdesouza_HW_repo
+  393  git add hw03/README.md hw03/hw03_history.txt
+  394  git commit -m "Add README and history"
+  395  git push
+  396  ls hw03
+  397  mv ~/hw03/README.md hw03/
+  398  mv ~/hw03/hw03_history.txt hw03/
+  399  git add hw03/README.md hw03/hw03_history.txt
+  400  git commit -m "Add README and history"
+  401  git push
+  402  tmux new-session -s homework
+  403  tmux ls
+  404  tmux attach -t homework 4
+  405  ls
+  406  pwd
+  407  tmux
+  408  timux
+  409  tmuxx
+  410  tmux
+  411  ls
+  412  pwd
+  413  tmux ls
+  414  tmux attach -t ethan
+  415  tmux ls
+  416  tmux attach -t homework
+  417  ls
+  418  tmux ls
+  419  tmux kill-session -t 0  
+  420  pwd
+  421  cd /mnt/scratch/CS131_jelena
+  422  cd /mnt/scratch/CS131_jelenag/students
+  423  ls
+  424  cd
+  425  pwd
+  426  cd CS131-jelemang
+  427  cd /mnt/scratch/CS131_jelenag
+  428  ls
+  429  cd projects
+  430  ls
+  431  cd  team03_sec3  
+  432  ls
+  433  cd Data
+  434  ls
+  435  cd team03_sec3_sample.csv
+  436  cd
+  437  $ ps aux | head -1 && ps aux | grep jelenang
+  438  ls
+  439  MM
+  440  M
+  441  echo $
+  442  ps aux | grep sleep
+  443  top
+  444  ./runme /my/path/runme 
+  445  /my/path/runme 
+  446  /my/path/projects
+  447  ps aux
+  448  M
+  449  sleep 300 &
+  450  jobs
+  451  bg %1
+  452  sleep 500 &
+  453   tmix ks
+  454  timix ls
+  455  tmix ls
+  456  cut -d $'\t' -f5 amazon_reviews_10k_random.tsv | sort | uniq -c | sort -nr | 
+  457  tmux
+  458  tmux ls
+  459  tmux attach -t 0
+  460  tmux
+  461  ls
+  462  tmux
+  463  ls
+  464  pwd
+  465  cd /mnt/scratch/CS131_jelena
+  466  pwd
+  467  cd /mnt/scratch/CS131_jelenag/
+  468  ls
+  469  grep -ic'refund'amazon_reviews_60.tsv   
+  470  ls
+  471  grep'pattern'amazon_reviews_full.tsv      
+  472  grep'pattern'amazon_reviews_full.tsv
+  473  [ethand@sjsu CS131_jelenag]$ grep'pattern'amazon_reviews_full.tsv
+  474  -bash: greppatternamazon_reviews_full.tsv: command not foundgrep
+  475  grep'pattern'amazon_reviews_full.tsv
+  476  grep 'pattern' amazon_reviews_full.tsv
+  477  grep -n 'great' amazon_reviews_full.tsv
+  478  grep -c 'great' grep -n 'great' amazon_reviews_full.tsv
+  479  grep -c 'great' amazon_reviews_full.tsv
+  480  sort -n
+  481  head -1 amazon_reviews_full.tsv | tr '\t' '\n'
+  482   head -1 amazon_reviews_full.tsv | tr '\t' '\n'
+  483  head -1 amazon_reviews_full.tsv | tr '\t' '\n'
+  484  pw
+  485  pwd
+  486  cd /mnt/scratch/CS131_jelenag/
+  487  ls
+  488  cd projects
+  489  ls
+  490  cd team03_sec3
+  491  ls
+  492  cd Data
+  493  ls
+  494  cd team03_sec3_sample.csv
+  495  ls -lh team03_sec3_sample.csv
+  496  ls *.txt
+  497  ls
+  498  # Preview first 5 rows (streaming)
+  499  head -n 5 Crime_Data_from_2020_to_Present.csv
+  500  # Verify row count
+  501  wc -l Crime_Data_from_2020_to_Present.csv
+  502  # Verify file size
+  503  ls
+  504  pwd
+  505  cd /mnt/scratch/CS131_jelenag/
+  506  ls
+  507  cd projects
+  508  ls
+  509  cd  team03_sec3   t
+  510  cd  team03_sec
+  511  cd  team03_sec3
+  512  ls
+  513  cd README.md
+  514  cd projects2_session.txt
+  515  cd out
+  516  ls
+  517  cat filename.txt 
+  518  Crime_Data_from_2020_to_Present.csv
+  519  cut -d',' -f<crime_column> Crime_Data_from_2020_to_Present.csv | sort | uniq -c | sort -nr > out/freq_crime_type.txt
+  520  cd
+  521  ls
+  522  pwd
+  523  cd /mnt/scratch/CS131_jelenag/projects
+  524  ls
+  525  cd team03-sec3
+  526  cd team03_sec3
+  527  ls
+  528  ls Data
+  529  head -1 Data/Crime_Data_from_2020_to_Present.csv
+  530  cut -d',' -f10 Data/Crime_Data_from_2020_to_Present.csv | tail -n +2 | sort | uniq -c | sort -nr | tee out/freq_crime_desc.txt
+  531  cut -d',' -f10 Data/Crime_Data_from_2020_to_Present.csv | tail -n +2 | sort | uniq -c | sort -nr 
+  532  cut -d',' -f20 Data/Crime_Data_from_2020_to_Present.csv | tail -n +2 | sort | uniq -c | sort -nr > out/freq_status_desc.txt
+  533  cut -d',' -f20 Data/Crime_Data_from_2020_to_Present.csv | tail -n +2 | sort | uniq -c | sort -nr > out/freq_status_desc.txt
+  534  cut -d',' -f1,3,6,10 Data/Crime_Data_from_2020_to_Present.csv | tail -n +2 | sort -u > out/skinny_crime_table.csv
+  535  grep -i "assault" Data/Crime_Data_from_2020_to_Present.csv | tee out/assault_cases.txt | wc -l
+  536  grep -vi "unknown" Data/Crime_Data_from_2020_to_Present.csv > out/no_unknown_records.txt 2> out/error_log.txt
+  537  grep -vi "unknown" Data/Crime_Data_from_2020_to_Present.csv > out/no_unknown_records.txt 2> out/error_log.txt
+  538  ls -ld out
+  539  ls out
+  540  head -10 out/top10_area_name.txt
+  541  head -10 out/freq_area_name.txt
+  542  head -10 out/freq_year.txt
+  543  head -10 out/skinny_date_area.txt
+  544  ls
+  545  less project2_session.txt
+  546  head project2_session.txt
+  547  ls project2_session.txt
+  548  head -5 project2_session.txt
+  549  cat run_project2.sh
+  550  ls
+  551  cd ~/firstname_lastname_HW_repo
+  552  cd ethan_desouza_HW_repo
+  553  cd firstname_lastname_HW_repo
+  554  cd ethanphilipdesouza_HW_repo
+  555  ls
+  556  git clone https://github.com/sjsu-cs131-spring26/ethanphilipdesouza_HW_repo.git
+  557  cd ethanphilipdesouza_HW_repo
+  558  ls
+  559  mkdir hw04
+  560  cd hw04
+  561  mkdir -p /mnt/scratch/CS131_jelenag/students/ethand/hw04
+  562  cd /mnt/scratch/CS131_jelenag/students/ethand/hw04
+  563  ls
+  564  pwd
+  565  cd
+  566  ls
+  567   cd ethanphilipdesouza_HW_repo
+  568  ls
+  569  pwd
+  570  cd hw04
+  571  pwd
+  572  vi hw04_run.sh
+  573  vi find_report.txt
+  574  cut -f5 amazon_reviews_10k_random_hw4.tsv | sort | uniq -c | sort -nr | head
+  575  cut -f5,6 amazon_reviews_10k_random_hw4.tsv | sort -t $'\t' -k1,1 | uniq > pid_title.tsv
+  576  cut -f5 amazon_reviews_10k_random_hw4.tsv | sort | uniq -c | sort -nr | awk '{print $2"\t"$1}' | sort -t $'\t' -k1,1 > pid_count.tsv
+  577  join -t $'\t' -1 1 -2 1 pid_count.tsv pid_title.tsv | head
+  578  cut -f5,6 amazon_reviews_10k_random_hw4.tsv | sort -t $'\t' -k1,1 | uniq > pid_title.tsv
+  579  cut -f5 amazon_reviews_10k_random_hw4.tsv | sort | uniq -c | sort -nr | awk '{print $2"\t"$1}' | sort -t $'\t' -k1,1 > pid_count.tsv
+  580  join -t $'\t' -1 1 -2 1 pid_count.tsv pid_title.tsv | head
+  581  head -5000 amazon_reviews_10k_random_hw4.tsv | cut -f5 | sort > first.txt
+  582  tail -5000 amazon_reviews_10k_random_hw4.tsv | cut -f5 | sort > second.txt
+  583  comm first.txt second.txt | head
+  584  comm -3 first.txt second.txt | wc -l
+  585  head -5000 amazon_reviews_10k_random_hw4.tsv | cut -f5 | sort > first.txt
+  586  comm -23 first.txt second.txt | wc -l
+  587  comm -13 first.txt second.txt | wc -l
+  588  comm -12 first.txt second.txt | wc -l
+  589  ids/
+  590    CUSTOMERS/
+  591    PRODUCTS/
+  592  mkdir -p ids/CUSTOMERS ids/PRODUCTS
+  593  cut -f2 amazon_reviews_10k_random_hw4.tsv | sort | uniq | head -3
+  594  grep -F "CUSTOMER_ID" amazon_reviews_10k_random_hw4.tsv | cut -f8 > ids/CUSTOMERS/CUSTOMER_ID.txt
+  595  cut -f5 amazon_reviews_10k_random_hw4.tsv | sort | uniq | head -3
+  596  grep -F "600633062" amazon_reviews_10k_random_hw4.tsv | cut -f8 > ids/PRODUCTS/600633062.txt
+  597  cut -f2 amazon_reviews_10k_random_hw4.tsv | sort | uniq | head -3
+  598  ls ids/CUSTOMERS
+  599  rm ids/CUSTOMERS/CUSTOMER_ID.txt
+  600  grep -F "10001556" amazon_reviews_10k_random_hw4.tsv | cut -f8 > ids/CUSTOMERS/10001556.txt
+  601  grep -F "10002228" amazon_reviews_10k_random_hw4.tsv | cut -f8 > ids/CUSTOMERS/10002228.txt
+  602  grep -F "10004235" amazon_reviews_10k_random_hw4.tsv | cut -f8 > ids/CUSTOMERS/10004235.txt
+  603  ls ids/CUSTOMERS
+  604  cat ids/CUSTOMERS/10001556.txt
+  605  cut -f5 amazon_reviews_10k_random_hw4.tsv | sort | uniq | head -3
+  606  grep -F "PRODUCT_ID" amazon_reviews_10k_random_hw4.tsv | cut -f8 > ids/PRODUCTS/PRODUCT_ID.txt
+  607  ls -R ids
+  608  cut -f5 amazon_reviews_10k_random_hw4.tsv | sort | uniq | head -3
+  609  grep -F "PRODUCT_ID" amazon_reviews_10k_random_hw4.tsv | cut -f8 > ids/PRODUCTS/PRODUCT_ID.txt
+  610  ls -R ids
+  611  rm ids/PRODUCTS/PRODUCT_ID.txt
+  612  cut -f5 amazon_reviews_10k_random_hw4.tsv | sort | uniq | head -5
+  613  grep -F "245449872" amazon_reviews_10k_random_hw4.tsv | cut -f8 > ids/PRODUCTS/245449872.txt
+  614  grep -F "46324555" amazon_reviews_10k_random_hw4.tsv | cut -f8 > ids/PRODUCTS/46324555.txt
+  615  ls ids/PRODUCTS
+  616  mkdir share
+  617  chmod 770 share
+  618  ls -ld share
+  619  touch share/file1.txt share/file2.txt
+  620  mkdir share/subdir
+  621  ls -l share
+  622  chmod -R 770 share
+  623  ls -l share
+  624  ln share/file1.txt share/hardlink.txt
+  625  ln -s share/file1.txt share/symlink.txt
+  626  ls -li share
+  627  mkdir share
+  628  chmod 770 share
+  629  ls -ld share
+  630  ls -Id share
+  631  ls -ld share
+  632  [ethand@sjsu hw04]$ ls -ld share
+  633  drwxrwx--- 3 ethand jelenag 4096 Mar  1 03:04 sharels -li share
+  634  ls -li share
+  635  echo "hello" > test.txt
+  636  echo "world" >> test.txt
+  637  cat test.txt
+  638  ls fakefile 2> error.txt
+  639  ls fakefile &> both.txt
+  640  cut -f8 amazon_reviews_10k_random_hw4.tsv | sort | uniq -c | tee stars_output.txt | wc -l
+  641  history > hw04_history.txt
