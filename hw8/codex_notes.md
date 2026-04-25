@@ -1,11 +1,3 @@
-
----
-
-# 🟢 2. Final `codex_notes.md`
-
-Replace with this:
-
-```markdown
 # Codex Notes
 
 ## Prompt 1
