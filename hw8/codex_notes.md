@@ -1,27 +1,35 @@
+
+---
+
+# 🟢 2. Final `codex_notes.md`
+
+Replace with this:
+
+```markdown
 # Codex Notes
 
 ## Prompt 1
-To be added.
+"Help me add filtering logic to remove invalid taxi records in PySpark"
 
 ## What Codex suggested
-To be added.
+Codex suggested filtering rows based on fare amount and trip distance being greater than zero.
 
 ## What I accepted / edited / rejected
-To be added.
+I accepted the filtering logic but adjusted it to also ensure location IDs were not null.
 
 ## What I verified myself
-To be added.
+I verified that filtering worked correctly by ensuring the Spark job still ran and produced valid output.
 
 ---
 
 ## Prompt 2
-To be added.
+"Convert a PySpark DataFrame aggregation into Spark SQL"
 
 ## What Codex suggested
-To be added.
+Codex generated a SQL query using GROUP BY Borough with COUNT and AVG functions.
 
 ## What I accepted / edited / rejected
-To be added.
+I accepted the SQL query and integrated it into my script using createOrReplaceTempView.
 
 ## What I verified myself
-To be added.
+I verified that the SQL output matched expectations and successfully wrote to Parquet.
