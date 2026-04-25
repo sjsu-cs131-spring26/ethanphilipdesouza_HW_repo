@@ -1,34 +1,25 @@
 # HW8 - PySpark Practice + Distributed Run on GCP + Codex CLI Warm-up
 
 ## Overview
-This homework uses PySpark to analyze NYC yellow taxi trip data and taxi zone lookup data. The job is designed to run on Google Cloud Dataproc Serverless and produce Parquet outputs in Google Cloud Storage.
+This assignment uses PySpark to analyze NYC yellow taxi data and runs the job on Google Cloud Dataproc Serverless. The goal was to practice distributed data processing, cloud execution, and inspecting Spark jobs.
 
 ## Analysis A: Hourly Activity
 This analysis groups trips by:
 - Borough
 - pickup hour
 
-It outputs trip counts for each Borough and hour combination.
+It outputs the total number of trips per Borough per hour.
 
 ## Analysis B: Fare / Tip Summary
 This analysis groups trips by Borough and computes:
-- trip count
-- average fare
+- total trip count
+- average fare amount
 - average tip amount
 
-## Files
-- `pyspark_job.py` - main PySpark job
-- `codex_notes.md` - notes on the two Codex CLI tasks
-- `screenshots/` - Spark History UI screenshots
-
 ## Run Command
-To be added after Dataproc submission.
 
-## Output Path
-To be added after GCS output is created.
-
-## Local vs Distributed
-To be completed after the distributed run.
-
-## Codex Help
-To be completed after using Codex CLI.
+```bash
+gcloud dataproc batches submit pyspark "$CODE_URI" \
+  --region="$REGION" \
+  --deps-bucket="gs://$BUCKET" \
+  --properties="spark.dynamicAllocation.enabled=false,spark.executor.instances=4,spark.executor.cores=4,spark.executor.memory=4g"
