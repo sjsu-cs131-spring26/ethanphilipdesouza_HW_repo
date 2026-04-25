@@ -23,3 +23,6 @@ gcloud dataproc batches submit pyspark "$CODE_URI" \
   --region="$REGION" \
   --deps-bucket="gs://$BUCKET" \
   --properties="spark.dynamicAllocation.enabled=false,spark.executor.instances=4,spark.executor.cores=4,spark.executor.memory=4g"
+
+
+
