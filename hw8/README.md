@@ -26,3 +26,14 @@ gcloud dataproc batches submit pyspark "$CODE_URI" \
 
 
 
+## Output Path
+
+gs://hw8-ethan-1777149631/output/
+
+## Local vs Distributed Execution
+
+Local execution runs everything on one machine, while distributed execution on Dataproc Serverless runs the job across multiple executors. In the Spark UI, I could observe jobs, stages, task counts, and execution timelines that are harder to see in local mode. Operations such as joins and groupBy are more expensive because they involve shuffling data across executors.
+
+## Codex Usage
+
+Codex helped with small, bounded tasks such as improving filtering logic and translating a DataFrame-style aggregation into Spark SQL. I still reviewed the code manually and verified that the final script produced the expected outputs.
